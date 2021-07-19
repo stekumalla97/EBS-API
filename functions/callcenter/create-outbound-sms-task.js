@@ -239,7 +239,7 @@ exports.handler = async function (context, event, callback) {
     return callback(null, response);
   }
   const chatChannelSid = chatChannel.sid;
-  console.log(`Chat channel SID is '${chatChannelSid}'`);
+  console.log(`Chat channel SID is '${chatChannelSid}' `);
   const responseBody = { chatChannel: { identity } };
   Object.keys(chatChannel).forEach((key) => {
     // Excluding private properties from the response object
