@@ -1,12 +1,12 @@
 # This is a basic workflow to publish a Twilio function with Github Actions
 
-name: Twilio CI
+name: EBS-API
 
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the master branch
 on:
   push:
-    branches: [ main ]
+    branches: [ Dev ]
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
